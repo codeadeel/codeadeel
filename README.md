@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Adeel</h1>
+<h1 align="center">Hi 👋, I'm Adeel Ijaz</h1>
 <h3 align="center">Machine Learning Engineer</h3>
 
 - 🔭 I’m currently working on **ML & MLOps**
@@ -31,7 +31,7 @@
 <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="Seaborn" width="40" height="40"/> </a>
 <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="OpenCV" width="40" height="40"/> </a>
 <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" width="40" height="40"/> </a>
-<a href="https://mxnet.apache.org/" target="_blank" rel="noreferrer"> <img src="https://mxnet.apache.org/versions/1.9.1/assets/img/mxnet_logo.png" alt="MXNet" width="60" height="40"/> </a>
+<a href="https://mxnet.apache.org/" target="_blank" rel="noreferrer"> <img src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2017/12/04/mxnet-1024x351.jpeg" alt="MXNet" width="70" height="40"/> </a>
 <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a>
 <a href="https://onnx.ai/" target="_blank" rel="noreferrer"> <img src="https://artwork.lfaidata.foundation/projects/onnx/icon/color/onnx-icon-color.png" alt="ONNX" width="40" height="40"/> </a>
 <a href="https://www.kubeflow.org/" target="_blank" rel="noreferrer"> <img src="https://www.kubeflow.org/docs/images/logos/Pipeline.png" alt="KubeFlow" width="40" height="40"/> </a>
