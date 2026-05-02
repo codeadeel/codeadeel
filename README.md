@@ -18,7 +18,6 @@
   <a href="#-connect"><img src="https://img.shields.io/badge/-./connect.sh-0d1117?style=flat-square&labelColor=0d1117&color=ff2d70&logo=ghost&logoColor=ff2d70" alt="connect"/></a>
 </p>
 
----
 
 ## 🐚 whoami
 
