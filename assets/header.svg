@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, 'Courier New', monospace">
+  <defs>
+    <style>
+      .bg     { fill: #0d1117; }
+      .text   { fill: #c9d1d9; font-size: 14px; }
+      .prompt { fill: #ff2d70; font-size: 14px; font-weight: 700; }
+      .ascii  { fill: #58a6ff; font-size: 14px; }
+      .dim    { fill: #6e7681; font-size: 11px; }
+      .ok     { fill: #56d364; font-size: 14px; }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      .cursor { animation: blink 1.05s steps(1) infinite; fill: #ff2d70; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="800" height="250" rx="8"/>
+
+  <!-- terminal chrome -->
+  <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="20" r="6" fill="#27c93f"/>
+  <text x="400" y="24" class="dim" text-anchor="middle">adeel@gpu-cluster: ~/profile</text>
+  <line x1="0" y1="40" x2="800" y2="40" stroke="#21262d"/>
+
+  <!-- line 1: $ login -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.0s" dur="0.25s" fill="freeze"/>
+    <text x="16" y="64" class="prompt">$</text>
+    <text x="32" y="64" class="text">login</text>
+  </g>
+
+  <!-- line 2: motd -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.25s" fill="freeze"/>
+    <text x="16" y="84" class="dim">welcome to gpu-cluster · last login: just now</text>
+  </g>
+
+  <!-- line 3: $ cat name -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.25s" fill="freeze"/>
+    <text x="16" y="108" class="prompt">$</text>
+    <text x="32" y="108" class="text">cat /etc/profile/adeel.ascii</text>
+  </g>
+
+  <!-- ascii name — slant font, all caps so uppercase D reads cleanly (no d-as-H) -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.4s" fill="freeze"/>
+    <text x="16" y="128" class="ascii" xml:space="preserve">    ___    ____  ______________ </text>
+    <text x="16" y="144" class="ascii" xml:space="preserve">   /   |  / __ \/ ____/ ____/ / </text>
+    <text x="16" y="160" class="ascii" xml:space="preserve">  / /| | / / / / __/ / __/ / /  </text>
+    <text x="16" y="176" class="ascii" xml:space="preserve"> / ___ |/ /_/ / /___/ /___/ /___</text>
+    <text x="16" y="192" class="ascii" xml:space="preserve">/_/  |_/_____/_____/_____/_____/</text>
+  </g>
+
+  <!-- $ whoami short -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.25s" fill="freeze"/>
+    <text x="16" y="216" class="prompt">$</text>
+    <text x="32" y="216" class="text">whoami --short</text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.4s" dur="0.25s" fill="freeze"/>
+    <text x="16" y="234" class="ok">ml engineer · mlops · ai @ scale</text>
+  </g>
+
+  <!-- final prompt + blinking cursor -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.9s" dur="0.25s" fill="freeze"/>
+    <text x="700" y="234" class="prompt">$</text>
+    <rect class="cursor" x="714" y="222" width="9" height="14"/>
+  </g>
+</svg>
