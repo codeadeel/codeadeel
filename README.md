@@ -27,7 +27,7 @@ adeel · machine learning engineer
 > training models · shipping inference · scaling things that learn
 
 adeel@gpu-cluster:~$ uname -a
-Adeel  5.2026  #ml-engineer  SMP  x86_64  GNU/Linux   [karachi → cloud → edge]
+Adeel  5.2026  #ml-engineer  SMP  x86_64  GNU/Linux   [Islamabad → cloud → edge]
 ```
 
 ## 🖥️ nvidia-smi
